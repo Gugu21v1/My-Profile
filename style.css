@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+body {
+  background-color: antiquewhite;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+img {
+  border-radius: 15px;
+  margin: auto auto;
+  width: 260px;
+}
+
+@media (max-width: 800px) {
+  img {
+    max-width: 80%;
+  }
+
+  .card {
+    max-width: 300px;
+  }
+}
+
+.container {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+button {
+  background-color: azure;
+  border-radius: 20px;
+}
+
+h1 {
+  padding-top: 20px;
+}
+
+h3 {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+hr {
+  width: 30%;
+}
+
+.alinhar {
+  text-align: center;
+  margin: auto auto;
+}
+
+.botao {
+  padding: 10px 10px;
+  margin-bottom: 20px;
+  background-color: coral;
+  transition: all 0.5s ease-out;
+}
+
+.botao:hover {
+  scale: 1.2;
+  background-color: red;
+  margin: auto auto;
+  margin-bottom: 40px;
+  margin-top: 20px;
+
+
+}
+
+.card {
+  border: 6px groove brown;
+  background-color: beige;
+  margin: 30px auto;
+  width: 500px;
+  border-radius: 60px;
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dist {
+  padding-top: 7px;
+  padding-bottom: 20px;
+}
